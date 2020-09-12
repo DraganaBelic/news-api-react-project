@@ -1,6 +1,5 @@
 import { setCurrentArticle } from "../../actions/articleActions";
 import { articleReducer } from "../articleReducer";
-import { SET_CURRENT_ARTICLE } from "../../constants/ActionTypes";
 
 describe("articleReducer test", () => {
   it("should return the initial state", () => {
