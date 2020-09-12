@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Header component should render properly 1`] = `
+<div
+  class="HeaderStyle-xeym88-0 TXrIz"
+>
+  <a
+    href="/gb"
+  >
+    <div
+      class="HeaderStyle__HeaderItemStyle-xeym88-1 dvtrWk"
+    >
+      topNews
+    </div>
+  </a>
+  <a
+    href="/gb/categories"
+  >
+    <div
+      class="HeaderStyle__HeaderItemStyle-xeym88-1 dvtrWk"
+    >
+      categories
+    </div>
+  </a>
+  <a
+    href="/gb/search"
+  >
+    <div
+      class="HeaderStyle__HeaderItemStyle-xeym88-1 dvtrWk"
+    >
+      search
+    </div>
+  </a>
+  <a
+    aria-current="page"
+    class="active"
+    href="/"
+  >
+    <div
+      class="HeaderStyle__HeaderItemStyle-xeym88-1 kwIewx"
+    >
+      <div>
+        US
+      </div>
+    </div>
+  </a>
+  <a
+    aria-current="page"
+    class="active"
+    href="/"
+  >
+    <div
+      class="HeaderStyle__HeaderItemStyle-xeym88-1 eCcOIj"
+    >
+      <div>
+        GB
+      </div>
+    </div>
+  </a>
+</div>
+`;

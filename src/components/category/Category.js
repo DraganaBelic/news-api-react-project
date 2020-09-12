@@ -1,9 +1,12 @@
 import React, { useEffect, Fragment } from "react";
 import { useSelector, useDispatch } from "react-redux";
+import { endpoint } from "../../constants/Constant";
 import { TopNewsWrapperStyle } from "../topNews/TopNewsStyle";
+
 import Thumbnail from "../thumbnail/Thumbnail";
 import { useTranslation } from "react-i18next";
 import { fetchAllByCategory } from "../../api/apiUtil";
+
 import LoaderComponent from "../../general/LoaderComponent";
 
 const Category = () => {
@@ -11,9 +14,9 @@ const Category = () => {
   const fetchData = useSelector((state) => state.category);
   const response = fetchData.response;
   const category = useSelector((state) => state.category.currentCategory);
+
   const dispatch = useDispatch();
   const { t } = useTranslation();
-  
   useEffect(() => {
     dispatch(fetchAllByCategory(currentCountry, category));
     // eslint-disable-next-line react-hooks/exhaustive-deps

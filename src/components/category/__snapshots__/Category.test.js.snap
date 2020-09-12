@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Category component should render with given state from Redux store 1`] = `
+<h2>
+  top
+   
+  science
+   
+  newsFrom
+   
+  gb
+</h2>
+`;

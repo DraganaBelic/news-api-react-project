@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Categories component should render with given state from Redux store 1`] = `
+<div>
+  <h2>
+    top5NewsByCategoryFrom
+     
+    gb
+  </h2>
+  <div
+    class="CategoryStyle__CategoryItemWrapper-yyfh8s-0 Ltyni"
+  >
+    <div>
+      <div
+        class="CategoryStyle__CategoryTitleStyle-yyfh8s-2 cbhErF"
+      >
+        <a
+          href="/gb/entertainment"
+        >
+          entertainment
+           
+        </a>
+        <button>
+          <i
+            class="fas fa-chevron-down"
+          />
+        </button>
+      </div>
+      <div
+        class="CategoryStyle__NewsByCategoryWrapperStyle-yyfh8s-1 kJCvmv"
+      />
+    </div>
+    <div>
+      <div
+        class="CategoryStyle__CategoryTitleStyle-yyfh8s-2 cbhErF"
+      >
+        <a
+          href="/gb/general"
+        >
+          general
+           
+        </a>
+        <button>
+          <i
+            class="fas fa-chevron-down"
+          />
+        </button>
+      </div>
+      <div
+        class="CategoryStyle__NewsByCategoryWrapperStyle-yyfh8s-1 kJCvmv"
+      />
+    </div>
+    <div>
+      <div
+        class="CategoryStyle__CategoryTitleStyle-yyfh8s-2 cbhErF"
+      >
+        <a
+          href="/gb/health"
+        >
+          health
+           
+        </a>
+        <button>
+          <i
+            class="fas fa-chevron-down"
+          />
+        </button>
+      </div>
+      <div
+        class="CategoryStyle__NewsByCategoryWrapperStyle-yyfh8s-1 kJCvmv"
+      />
+    </div>
+    <div>
+      <div
+        class="CategoryStyle__CategoryTitleStyle-yyfh8s-2 cbhErF"
+      >
+        <a
+          href="/gb/science"
+        >
+          science
+           
+        </a>
+        <button>
+          <i
+            class="fas fa-chevron-down"
+          />
+        </button>
+      </div>
+      <div
+        class="CategoryStyle__NewsByCategoryWrapperStyle-yyfh8s-1 kJCvmv"
+      />
+    </div>
+    <div>
+      <div
+        class="CategoryStyle__CategoryTitleStyle-yyfh8s-2 cbhErF"
+      >
+        <a
+          href="/gb/technology"
+        >
+          technology
+           
+        </a>
+        <button>
+          <i
+            class="fas fa-chevron-down"
+          />
+        </button>
+      </div>
+      <div
+        class="CategoryStyle__NewsByCategoryWrapperStyle-yyfh8s-1 kJCvmv"
+      />
+    </div>
+  </div>
+</div>
+`;

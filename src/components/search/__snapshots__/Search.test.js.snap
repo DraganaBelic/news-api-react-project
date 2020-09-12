@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Search component should render with given state from Redux store 1`] = `
+<div>
+  <div
+    class="SearchStyle__SearchDivStyle-sc-1sh7sb9-0 cekAVM"
+  >
+    <h2>
+      searchTopNewsFrom
+       
+      gb
+       
+      byTerm
+      :
+    </h2>
+    <input
+      placeholder="searchTerm"
+      type="search"
+    />
+    <div
+      class="TopNewsStyle__TopNewsWrapperStyle-sc-71icot-0 gbkRyb"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Article component should render with given state from Redux store 1`] = `
+<div
+  class="ArticleStyle__ArticleDivStyle-s5eji1-0 eTKQyz"
+>
+  <h2
+    class="ArticleStyle__ArticleTitleStyle-s5eji1-1"
+  />
+  <div
+    class="ArticleStyle__ArticleImageStyle-s5eji1-2 jQaNHS"
+  >
+    <img />
+  </div>
+  <div
+    class="ArticleStyle__ArticleContentStyle-s5eji1-3 ldTrWp"
+  />
+  <a
+    href="/prevPath"
+  >
+    &lt;
+    backToList
+  </a>
+</div>
+`;
