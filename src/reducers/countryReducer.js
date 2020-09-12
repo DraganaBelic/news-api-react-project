@@ -7,7 +7,7 @@ import {
 const intialState = {
   currentCountry: country.GB,
 };
-const countryReducer = (state = intialState, action) => {
+export const countryReducer = (state = intialState, action) => {
   switch (action.type) {
     case SET_COUNTRY:
       return { ...state, currentCountry: action.data };
@@ -18,5 +18,3 @@ const countryReducer = (state = intialState, action) => {
       return state;
   }
 };
-
-export default countryReducer;
